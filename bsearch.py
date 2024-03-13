@@ -1,4 +1,4 @@
-def bsearch(seq,v,l,r):
+def bsearch(seq,v,l,r): #binary search in python returns true if v is found in seq[l:r]
     if (r-l)==0:
         return(False)
     mid=(l+r)//2
